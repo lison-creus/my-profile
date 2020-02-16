@@ -1,0 +1,136 @@
+/* colors and fonts */
+
+body {
+  background: #F6F6F6;
+  color: #001021;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 16px; 
+ line-height: 1,6; 
+
+}
+
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h1 {
+	color: #046E70;
+	font-weight: 100;
+    font-size: 50px;
+}
+
+h2 { 
+	color: #046E70 ;
+	font-weight:lighter; 
+    font-size: 24px;
+
+ }
+
+ a {
+   text-decoration: none; 
+   color: #046E70;
+ }
+
+ a:hover {
+color: rgb( 200, 200, 200)
+
+ }
+
+ #photo {
+ 	width: 450px; 
+ 	height: 300px; 
+ 	margin-bottom: 40px;
+ }
+
+
+/* custom design with class */
+
+.container{
+   width: 700px;
+   margin: 40px auto;
+}
+
+.card-white {
+   background-color: white; 
+   padding: 40px; 
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+   border-radius: 4px;
+   text-align: center; 
+}
+
+.img-circle {
+	border-radius: 50%; 
+}
+
+.btn-blue {
+	background-color: #046E70; 
+	color: white; 
+	padding: 2px 2px;
+}
+
+.list-inline li {
+	list-style: none; 
+	display: inline; 
+	padding: 10%; 
+
+}
+
+.list-inline i {
+	font-size: 50px; 
+}
+
+#introduction p { 
+	margin-bottom: 40px; 
+
+ }
+
+ #music p { 
+    margin-bottom: 40px; 
+}
+
+#humanitaire ol {
+	line-height: 1.8;
+}
+
+
+#music ul {
+	list-style: none; 
+	padding left: none;
+}
+
+#travel ul {
+	list-style: none; 
+	padding left: none;
+}
+
+#humanitaire ol {
+	list-style: none; 
+	padding left: none;
+}
+
+
+
+/* responsive design */ 
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px; 
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px; 
+	}
+}
+
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px; 
+	}
+}
+
+
+
+
